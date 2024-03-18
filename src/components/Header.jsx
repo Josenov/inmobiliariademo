@@ -14,15 +14,17 @@ const Header = () => {
 
 
         return (
-            <div className='md:flex  items-center  md:justify-between h-16 bg-cyan-300'>
+            <div className='flex  items-center  md:justify-between h-16 bg-cyan-300'>
                 <AiOutlineMenu onClick={handleBurguerMenu} className="fixed top-4 right-4 z-[100] md:hidden size-8 text-black" />
-                <img className='w-12 h-12 ml-2' src="../public/Inmobiliaria.png" alt="" />
+                <img className='w-12 h-12 ml-3 flex items-center' src="public/Inmobiliaria.png" alt="" />
                 {/* <div className='flex  gap-4'>
             <a href="">Inicio</a>
             <a href="">Sobre Nosotros</a>
         </div> */}
 
                 {
+
+                    burguerMenu ?
                     
 
 
@@ -46,7 +48,7 @@ const Header = () => {
 
 
 
-                        
+                        : null
 
 
                 }

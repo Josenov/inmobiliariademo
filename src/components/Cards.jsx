@@ -3,7 +3,7 @@ import React from 'react'
 const Cards = () => {
     return (
         <div>
-            <div className="block rounded-lg bg-gray-200 w-96 mt-32 shadow-sm m-2">
+            <div className="block rounded-lg bg-gray-200 w-auto mt-32 shadow-sm m-2">
                 <div >
                     <img className="rounded-lg  sm:m-h-64 md:h-64 w-full" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-51701996/original/ac2eabbe-da86-4646-a7d7-f6fe48c083b8.jpeg?im_w=720"
                         alt="" />

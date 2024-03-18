@@ -5,7 +5,7 @@ const Inicio = () => {
   return (
     <div className=''>
 
-        <div className='h-10 bg-orange-200 mt-10 flex items-center justify-center font-medium text-xl'>
+        <div className='h-16 bg-orange-300 mt-10 flex items-center justify-center font-medium text-xl'>
             <p>Disponibles</p>
         </div>
 
