@@ -10,11 +10,12 @@ const Header = () => {
         console.log("state changed")
     }
 
-    
 
 
-        return (
-            <div className='md:flex  items-center  md:justify-between h-16 bg-cyan-300'>
+
+    return (
+        <div className="h-full">
+            <div className='md:flex  md:items-center  md:justify-between h-16  bg-cyan-300'>
                 <AiOutlineMenu onClick={handleBurguerMenu} className="fixed top-4 right-4 z-[100] md:hidden size-8 text-black" />
                 <img className='w-12 h-12 ml-3 flex items-center' src="assets/Inmobiliaria.png" alt="" />
                 {/* <div className='flex  gap-4'>
@@ -25,11 +26,11 @@ const Header = () => {
                 {
 
                     burguerMenu ?
-                    
+
 
 
                         <div className={`transform ${burguerMenu ? "translate-x-0 " : "translate-x-full "
-                    } mt-4 flex items-center justify-center bg-black/50 w-full h-screen backdrop-blur-md  text-white  overflow-y-auto  `}>
+                            } fixed mt-4 flex items-center justify-center bg-black/50 w-full h-screen backdrop-blur-md  text-white  overflow-y-auto  `}>
 
                             <div className="flex  flex-col gap-10 ">
                                 <a onClick={handleBurguerMenu} href="#inicio" className="flex items-center justify-center">
@@ -54,7 +55,10 @@ const Header = () => {
                 }
 
             </div>
-        )
-    }
 
-    export default Header
+        </div>
+
+    )
+}
+
+export default Header
