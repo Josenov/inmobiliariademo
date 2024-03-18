@@ -23,11 +23,11 @@ const Header = () => {
         </div> */}
 
                 {
-                    burguerMenu ?
+                    
 
 
                         <div className={`transform ${burguerMenu ? "translate-x-0 " : "translate-x-full "
-                    } mt-4 flex items-center justify-center bg-black/50 w-full min-h-screen backdrop-blur-md  text-white  overflow-y-auto  `}>
+                    } mt-4 flex items-center justify-center bg-black/50 w-full h-screen backdrop-blur-md  text-white  overflow-y-auto  `}>
 
                             <div className="flex  flex-col gap-10 ">
                                 <a onClick={handleBurguerMenu} href="#inicio" className="flex items-center justify-center">
@@ -46,9 +46,7 @@ const Header = () => {
 
 
 
-                        :
-
-                        null
+                        
 
 
                 }
