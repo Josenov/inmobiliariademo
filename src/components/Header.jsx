@@ -14,10 +14,20 @@ const Header = () => {
 
 
     return (
-        <div className="h-full">
-            <div className='md:flex  md:items-center  md:justify-between h-16  bg-cyan-300'>
-                <AiOutlineMenu onClick={handleBurguerMenu} className="fixed top-4 right-4 z-[100] md:hidden size-8 text-black" />
-                <img className='w-12 h-12 ml-3 flex items-center' src="assets/Inmobiliaria.png" alt="" />
+        <div className="w-full">
+
+
+
+
+            <nav className=' '>
+                <div className="h-20 w-full bg-gray-200 shadow-lg flex items-center justify-between" >
+                    
+                    <img className='w-20 h-20 ml-3 flex items-center' src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYS0wMi1hXzEta3NxdmM3NjUuanBn.jpg" alt="" />
+                    <AiOutlineMenu onClick={handleBurguerMenu} className="fixed md:hidden right-5 size-6 z-[99]  text-black" />
+                    
+                </div>
+                
+
                 {/* <div className='flex  gap-4'>
             <a href="">Inicio</a>
             <a href="">Sobre Nosotros</a>
@@ -29,11 +39,10 @@ const Header = () => {
 
 
 
-                        <div className={`transform ${burguerMenu ? "translate-x-0 " : "translate-x-full "
-                            } fixed mt-4 flex items-center justify-center bg-black/50 w-full h-screen backdrop-blur-md  text-white  overflow-y-auto  `}>
+                        <div className="fixed w-full h-screen translate-y-[-80px]  flex items-center justify-center bg-black/50 backdrop-blur-md  text-white">
 
                             <div className="flex  flex-col gap-10 ">
-                                <a onClick={handleBurguerMenu} href="#inicio" className="flex items-center justify-center">
+                                <a onClick={handleBurguerMenu} href="#" className="flex items-center justify-center">
                                     <AiOutlineHome size={30} className="" />
                                     <span className="m-2">Inicio</span>
                                 </a>
@@ -54,7 +63,7 @@ const Header = () => {
 
                 }
 
-            </div>
+            </nav>
 
         </div>
 

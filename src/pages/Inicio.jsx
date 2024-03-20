@@ -3,21 +3,15 @@ import Cards from '../components/Cards'
 
 const Inicio = () => {
   return (
-    <div className=''>
+    <div id='/' className=''>
 
-        <div className='h-16 bg-orange-300 mt-10 flex items-center justify-center font-medium text-xl'>
+        <div className=' w-full h-8 bg-orange-300 mt-[100px] flex items-center z-10 justify-center font-medium text-lg'>
             <p>Disponibles</p>
         </div>
 
         <div className=' flex flex-wrap items-center justify-center gap-1 mt-2'>
             <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
+            
             
         </div>
 
