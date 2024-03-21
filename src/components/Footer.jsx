@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 
 
 const Footer = () => {
@@ -9,20 +11,20 @@ const Footer = () => {
                 <img className='w-20 h-20 rounded-full' src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYS0wMi1hXzEta3NxdmM3NjUuanBn.jpg" alt="" />
                     <nav className="flex flex-wrap justify-center -mx-5 -my-2">
                         <div className="px-5 py-2">
-                            <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                            <Link to="/" className="text-base leading-6 text-gray-500 hover:text-gray-900">
                                 Inicio
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="px-5 py-2">
-                            <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                            <Link to="/contacto" className="text-base leading-6 text-gray-500 hover:text-gray-900">
                                 Contacto
-                            </a>
+                            </Link>
                         </div>
                         <div className="px-5 py-2">
-                            <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                            <Link to="/sobrenosotros" className="text-base leading-6 text-gray-500 hover:text-gray-900">
                                 Sobre Nosotros
-                            </a>
+                            </Link>
                         </div>
                     </nav>
                     <div className="flex justify-center mt-8 space-x-6">
