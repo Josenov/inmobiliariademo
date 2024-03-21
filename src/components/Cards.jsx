@@ -92,7 +92,7 @@ const Cards = () => {
                     inmuebles.map((inmueble) => {
 
                         return (
-                            <div key={inmueble.id} className="block rounded-lg bg-gray-200 w-auto mt-32 shadow-sm m-2">
+                            <div key={inmueble.id} className="block rounded-lg bg-gray-100 w-auto mt-32 shadow-lg m-2">
 
                                 <div >
 

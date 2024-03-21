@@ -20,7 +20,7 @@ const Header = () => {
 
 
             <nav className=' '>
-                <div className="h-20 w-full bg-gray-200 shadow-lg flex items-center justify-between" >
+                <div className="h-20 w-full bg-gray-100 shadow-lg flex items-center justify-between" >
                     
                     <img className='w-20 h-20 ml-3 flex items-center' src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYS0wMi1hXzEta3NxdmM3NjUuanBn.jpg" alt="" />
                     <AiOutlineMenu onClick={handleBurguerMenu} className="fixed md:hidden right-5 size-6 z-[99]  text-black" />
