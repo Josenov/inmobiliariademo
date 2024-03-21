@@ -3,7 +3,7 @@ import React from 'react'
 const SobreNosotros = () => {
   return (
     <>
-      <div  className='h-screen flex flex-col items-center md:w-[800px] w-full p-8'>
+      <div  className=' flex flex-col items-center justify-center md:w-[800px] w-full p-8'>
         <h2 className='text-2xl font-semibold mb-6'>Sobre Nosotros</h2>
         <p className=''>¡Bienvenido! Estamos ubicados en Cordoba Capital, especializados en ofrecerte los mejores alquileres temporarios para tus vacaciones. Entendemos la importancia de encontrar el lugar perfecto para disfrutar de tu tiempo en la costa y te lo damos.
 

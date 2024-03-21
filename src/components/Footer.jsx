@@ -8,7 +8,7 @@ const Footer = () => {
             <section className="bg-white mt-12 ">
             
                 <div className="max-w-screen-xl mb-4 overflow-hidden sm:px-6 lg:px-8 flex flex-col items-center justify-center">
-                <img className='w-20 h-20 rounded-full' src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYS0wMi1hXzEta3NxdmM3NjUuanBn.jpg" alt="" />
+                <img className='w-24 h-24 mb-5 rounded-full' src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYS0wMi1hXzEta3NxdmM3NjUuanBn.jpg" alt="" />
                     <nav className="flex flex-wrap justify-center -mx-5 -my-2">
                         <div className="px-5 py-2">
                             <Link to="/" className="text-base leading-6 text-gray-500 hover:text-gray-900">
