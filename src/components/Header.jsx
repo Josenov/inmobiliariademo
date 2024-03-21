@@ -34,7 +34,7 @@ const Header = () => {
                 <AiOutlineMenu onClick={handleBurguerMenu} className=" fixed md:hidden right-5 size-6 z-[99]  text-black" />
                 <div className='md:flex  gap-4 hidden p-4 font-medium '>
                     <Link to='/'>Inicio</Link>
-                    <Link to='/about'>Sobre Nosotros</Link>
+                    <Link to='/sobrenosotros'>Sobre Nosotros</Link>
 
                 </div>
 
@@ -64,7 +64,7 @@ const Header = () => {
                                 <AiOutlineHome size={30} className="" />
                                 <span className="m-2">Inicio</span>
                             </Link>
-                            <Link to="/about" onClick={handleBurguerMenu} className="flex items-center justify-center">
+                            <Link to="/sobrenosotros" onClick={handleBurguerMenu} className="flex items-center justify-center">
                                 <AiOutlineUser size={30} className="" />
                                 <span className="m-2">Sobre Nosotros</span>
                             </Link>
