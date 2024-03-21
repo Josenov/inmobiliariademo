@@ -92,12 +92,12 @@ const Cards = () => {
                     inmuebles.map((inmueble) => {
 
                         return (
-                            <div key={inmueble.id} className="block rounded-lg bg-gray-100 w-auto mt-32 shadow-lg m-2">
+                            <div key={inmueble.id} className="block rounded-lg bg-gray-100 w-auto mt-16 shadow-lg m-2">
 
                                 <div >
 
 
-                                    <img className="rounded-lg  sm:m-h-64 md:h-64 w-full" src={inmueble.imagenes.interior}
+                                    <img className="rounded-lg  sm:m-h-64 md:h-96 w-full" src={inmueble.imagenes.interior}
                                         alt="" />
                                     <a href="#!">
                                         <div
