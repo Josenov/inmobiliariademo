@@ -31,7 +31,7 @@ const Header = () => {
                 <Link>
                     <img className='w-20 h-20 ml-3 flex items-center rounded-full' src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYS0wMi1hXzEta3NxdmM3NjUuanBn.jpg" alt="" />
                 </Link>
-                <AiOutlineMenu onClick={handleBurguerMenu} className=" fixed md:hidden right-8 size-6 z-[99]  text-black" />
+                <AiOutlineMenu onClick={handleBurguerMenu} className=" fixed md:hidden right-6 size-6 z-[99]  text-black" />
                 <div className='md:flex  gap-4 hidden p-4 font-medium '>
                     <Link to='/'>Inicio</Link>
                     <Link to='/sobrenosotros'>Sobre Nosotros</Link>
