@@ -41,7 +41,7 @@ const Cards = () => {
                             <SwiperSlide key={inmueble.id} className=" rounded-lg bg-gray-200 w-auto  shadow-lg  flex justify-center items-center ">
 
                                 
-                                    <SwiperSlide className="p-6  flex justify-center flex-col ">
+                                    <SwiperSlide className="p-6  flex justify-center flex-col h-screen">
                                         <img className="rounded-lg  sm:m-h-64 md:h-96 md:w-[700px] flex justify-center items-center object-cover w-full " src={inmueble.imagenes.interior}
                                             alt="" />
                                         <div className="flex gap-5 items-center">
