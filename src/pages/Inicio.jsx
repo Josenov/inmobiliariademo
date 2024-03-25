@@ -12,8 +12,9 @@ const Inicio = () => {
             <p>Disponibles</p>
         </div>
 
-        <div className='flex flex-wrap items-center justify-center gap-1 '>
-            <Inmuebles/>
+        <div>
+          
+            <Cards/>
             
             
         </div>
