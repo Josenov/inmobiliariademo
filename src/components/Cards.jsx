@@ -19,11 +19,16 @@ const Cards = () => {
     return (
 
         <Swiper
+            centeredSlides={true}
+            loop={true}
+            slidesPerView={1}
+            spaceBetween={0}
             pagination={{
                 dynamicBullets: true,
             }}
             modules={[Pagination]}
-            className="mySwiper">
+            className="mySwiper"
+            >
 
             <div className="flex items-center justify-center">
 
@@ -33,15 +38,15 @@ const Cards = () => {
                     inmuebles.map((inmueble) => {
 
                         return (
-                            <SwiperSlide key={inmueble.id} className=" rounded-lg bg-gray-100 w-auto  shadow-lg m-2 mb-8 flex justify-center ">
+                            <SwiperSlide key={inmueble.id} className=" rounded-lg bg-gray-200 w-auto  shadow-lg  flex justify-center items-center ">
 
                                 
-                                    <SwiperSlide className="p-6 h-screen flex justify-center flex-col">
-                                        <img className="rounded-lg  sm:m-h-64 md:h-96 w-auto " src={inmueble.imagenes.interior}
+                                    <SwiperSlide className="p-6  flex justify-center flex-col ">
+                                        <img className="rounded-lg  sm:m-h-64 md:h-96 md:w-[700px] flex justify-center items-center object-cover w-full " src={inmueble.imagenes.interior}
                                             alt="" />
-                                        <div className="flex gap-5 ">
+                                        <div className="flex gap-5 items-center">
 
-                                            <h5 className="mb-2 text-lg font-bold leading-tight  text-black">
+                                            <h5 className="mb-2 text-lg font-bold  text-black">
                                                 {inmueble.titulo}
                                             </h5>
                                             <h5 className="mb-2 text-sm font-bold leading-tight  text-black flex">

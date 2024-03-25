@@ -12,9 +12,10 @@ const Inicio = () => {
             <p>Disponibles</p>
         </div>
 
-        <div>
-          
+        <div className='flex justify-center items-center md:ml-[200px]'>
+
             <Cards/>
+          
             
             
         </div>
