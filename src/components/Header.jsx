@@ -57,7 +57,7 @@ const Header = () => {
 
 
 
-                    <div className="fixed h-screen  w-full translate-y-[-80px] md:hidden    flex items-center justify-center bg-black/50 backdrop-blur-md  text-white">
+                    <div className="fixed h-screen  w-full translate-y-[-80px] md:hidden    flex items-center justify-center bg-black/50 backdrop-blur-md  text-white z-[99]">
 
                         <div className="flex flex-col gap-10 ">
                             <Link to="/" onClick={handleBurguerMenu} className="flex items-center justify-center">

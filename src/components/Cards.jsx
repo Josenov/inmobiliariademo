@@ -27,7 +27,7 @@ const Cards = () => {
                 dynamicBullets: true,
             }}
             modules={[Pagination]}
-            className="mySwiper"
+            className="mySwiper flex items-center justify-center md:ml-[130px] "
             >
 
             <div className="flex items-center justify-center">
@@ -38,10 +38,10 @@ const Cards = () => {
                     inmuebles.map((inmueble) => {
 
                         return (
-                            <SwiperSlide key={inmueble.id} className=" rounded-lg bg-gray-200 w-auto  shadow-lg h-auto  flex justify-center items-center ">
+                            <SwiperSlide key={inmueble.id} className=" rounded-lg bg-gray-100 md:bg-white  shadow-lg h-auto flex justify-center items-center mt-4 ">
 
                                 
-                                    <SwiperSlide className="p-6  flex justify-center flex-col h-full ">
+                                    <SwiperSlide className="p-6  flex justify-center flex-col h-full">
                                         <img className="rounded-lg  sm:m-h-64 md:h-96 md:w-[700px] flex justify-center items-center object-cover w-full " src={inmueble.imagenes.interior}
                                             alt="" />
                                         <div className="flex gap-5 items-center">
