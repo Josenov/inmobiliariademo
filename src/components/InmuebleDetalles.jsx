@@ -20,19 +20,19 @@ const InmuebleDetalles = () => {
 
 <div className='flex flex-col justify-center items-center md:mb-10'>
             <img className='w-[500px] mb-2' src="https://th.bing.com/th/id/R.4bb7f517cb11190b478cfac1a45639d0?rik=bbcAyXoym7Rk0g&pid=ImgRaw&r=0" alt="" />
-                <div>
+                <div className=''>
                    {/*  <p className='p-2'>Id nro:{id}</p> */}
-                    <h2 className='font-bold text-2xl text-black ml-2'>Hermosa casa en el campo</h2>
-                    <ol className='ml-5'>
+                    <h2 className='font-bold text-2xl text-black ml-2 text-center'>Hermosa casa en el campo</h2>
+                    <ol className='p-2 ml-5'>
 
-                        <li>2 ambientes</li>
+                        <li>5 ambientes</li>
                         <li>Direccion: Cachirulo 456</li>
-                        <li>Con Cochera si</li>
+                        <li>Con Cochera: si</li>
 
 
 
                     </ol>
-                    <p className='ml-5 md:w-full mt-5'>Casa Los Gringos se encuentra equipada para 5 personas, dos plantas, living-comedor, cocina, patio, cancha, parrilla, cámaras de seguridad, wifi, Smart-tv y zona de descanso</p>
+                    <p className='p-4 md:w-full mt-5'>Casa La Estancia se encuentra equipada para 5 personas, dos plantas, living-comedor, cocina, patio, cancha, parrilla, cámaras de seguridad, wifi, Smart-tv y zona de descanso</p>
                 </div>
 
             </div>
@@ -62,7 +62,7 @@ const InmuebleDetalles = () => {
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className="" src="https://th.bing.com/th/id/R.4bb7f517cb11190b478cfac1a45639d0?rik=bbcAyXoym7Rk0g&pid=ImgRaw&r=0" alt="" />
+                        <img className="h-60" src="https://th.bing.com/th/id/R.4bb7f517cb11190b478cfac1a45639d0?rik=bbcAyXoym7Rk0g&pid=ImgRaw&r=0" alt="" />
 
                     </SwiperSlide>
                     
