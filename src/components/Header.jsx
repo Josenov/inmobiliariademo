@@ -57,9 +57,10 @@ const Header = () => {
 
 
 
-                    <div className="fixed h-screen  w-full translate-y-[-80px] md:hidden    flex items-center justify-center bg-black/50 backdrop-blur-md  text-white z-[99]">
-
-                        <div className="flex flex-col gap-10 ">
+                    <div className="fixed h-screen  w-full translate-y-[-80px] md:hidden    flex items-center justify-center bg-black/50 backdrop-blur-md  text-white z-[80]">
+                            
+                        <div className="flex flex-col items-center gap-10 ">
+                        <img className='w-24 h-24   rounded-full' src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYS0wMi1hXzEta3NxdmM3NjUuanBn.jpg" alt="" />
                             <Link to="/" onClick={handleBurguerMenu} className="flex items-center justify-center">
                                 <AiOutlineHome size={30} className="" />
                                 <span className="m-2">Inicio</span>
