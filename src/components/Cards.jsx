@@ -40,7 +40,7 @@ const Cards = () => {
                         inmuebles.map((inmueble) => {
 
                             return (
-                                <SwiperSlide key={inmueble.id} className=" h-[500px] rounded-lg bg-gray-100 md:bg-white  shadow-lg  md:flex md:justify-center md:items-center mt-4 ">
+                                <SwiperSlide key={inmueble.id} className=" h-[500px] rounded-lg bg-gray-100 md:bg-white  shadow-lg  md:flex md:justify-center md:items-center mt-1 ">
 
 
                                     <SwiperSlide className="p-6  flex justify-center flex-col h-full">

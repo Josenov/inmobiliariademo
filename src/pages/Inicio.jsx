@@ -8,11 +8,11 @@ const Inicio = () => {
   return (
     <div  className=''>
 
-        <div className=' w-full h-8 bg-orange-300 mt-[50px] flex items-center  justify-center font-medium text-lg'>
+        <div className=' w-full h-8 bg-orange-300 mt-[20px] flex items-center  justify-center font-medium text-lg'>
             <p>Disponibles</p>
         </div>
 
-        <div className='flex justify-center items-center md:ml-[200px]'>
+        <div className='flex justify-center items-center md:ml-[300px] md:mt-[50px]'>
 
             <Cards/>
           
