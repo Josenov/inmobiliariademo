@@ -16,11 +16,11 @@ const Footer = () => {
                             </Link>
                         </div>
 
-                        <div className="px-5 py-2">
+                        {/* <div className="px-5 py-2">
                             <Link to="/contacto" className="text-base leading-6 text-gray-500 hover:text-gray-900">
                                 Contacto
                             </Link>
-                        </div>
+                        </div> */}
                         <div className="px-5 py-2">
                             <Link to="/sobrenosotros" className="text-base leading-6 text-gray-500 hover:text-gray-900">
                                 Sobre Nosotros
